@@ -24,9 +24,9 @@ const main = async () => {
   const iva = cuatoEsDeIva(subtotal);
   const total = totalTodo(subtotal, iva);
 
-  console.log(`Tu subtotal es: ${subtotal}`);
-  console.log(`Tu IVA es: ${iva}`);
-  console.log(`Tu total con iva es: ${total}\n`);
+  console.log(`Tu subtotal es: Q${subtotal}`);
+  console.log(`Tu IVA es: Q${iva}`);
+  console.log(`Tu total con iva es: Q${total}\n`);
 
   rl.close();
 };
